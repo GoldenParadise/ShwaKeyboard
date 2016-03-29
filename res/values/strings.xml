@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">ShwaKeyboard</string>
+    <string name="shwa_ime">ShwaKeyboard</string>
+    <string name="subtype_shwa">Shwa</string>
+
+</resources>

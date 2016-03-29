@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"  
+    android:keyHeight="50dp">
+    
+	<Row>
+	    <Key android:codes="0xE100" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE101" android:keyLabel="" />
+	    <Key android:codes="0xE106" android:keyLabel="" />
+	    <Key android:codes="0xE10B" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE102" android:keyLabel="" android:horizontalGap="62.50%p" />
+	    <Key android:codes="0xE107" android:keyLabel="" />
+	    <Key android:codes="0xE10C" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row>
+	    <Key android:codes="0xE103" android:keyLabel="" android:horizontalGap="62.50%p" />
+	    <Key android:codes="0xE108" android:keyLabel="" />
+	    <Key android:codes="0xE10D" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="-5" android:keyIcon="@drawable/delete_icon" android:isRepeatable="true" android:isSticky="true" />
+	    <Key android:codes="0xE200" android:keyIcon="@drawable/home_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE201" android:keyIcon="@drawable/back_icon" android:isSticky="true"/>
+	    <Key android:codes="0x000A" android:keyIcon="@drawable/enter_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE104" android:keyLabel=""  android:horizontalGap="12.5%p"/>
+	    <Key android:codes="0xE109" android:keyLabel="" />
+	    <Key android:codes="0xE10E" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE215" android:keyLabel="" android:keyEdgeFlags="left" />
+	    <Key android:codes="0xE219" android:keyLabel="" />
+	    <Key android:codes="0xE21D" android:keyLabel="" />
+	    <Key android:codes="0xE230" android:keyLabel="" />
+	    <Key android:codes="0xE080" android:keyLabel="" />
+	    <Key android:codes="0xE105" android:keyLabel="" />
+	    <Key android:codes="0xE10A" android:keyLabel="" />
+	    <Key android:codes="0xE10F" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+    
+</Keyboard>

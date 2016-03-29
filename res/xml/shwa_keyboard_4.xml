@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"  
+    android:keyHeight="50dp">
+    
+	<Row>
+	    <Key android:codes="0xE020" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE021" android:keyLabel="" />
+	    <Key android:codes="0xE022" android:keyLabel="" />
+	    <Key android:codes="0xE026" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE023" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE024" android:keyLabel="" />
+	    <Key android:codes="0xE025" android:keyLabel="" />
+	    <Key android:codes="0xE027" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row>
+	    <Key android:codes="0xE028" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE033" android:keyLabel="" />
+	    <Key android:codes="0xE035" android:keyLabel="" />
+	    <Key android:codes="0xE037" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="-5" android:keyIcon="@drawable/delete_icon" android:isRepeatable="true" android:isSticky="true" />
+	    <Key android:codes="0xE200" android:keyIcon="@drawable/home_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE201" android:keyIcon="@drawable/back_icon" android:isSticky="true"/>
+	    <Key android:codes="0x000A" android:keyIcon="@drawable/enter_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE029" android:keyLabel="" />
+	    <Key android:codes="0xE032" android:keyLabel="" />
+	    <Key android:codes="0xE034" android:keyLabel="" />
+	    <Key android:codes="0xE038" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE215" android:keyLabel="" android:keyEdgeFlags="left" />
+	    <Key android:codes="0xE219" android:keyLabel="" />
+	    <Key android:codes="0xE21D" android:keyLabel="" />
+	    <Key android:codes="0xE230" android:keyLabel="" />
+	    <Key android:codes="0xE070" android:keyLabel="" />
+	    <Key android:codes="0xE030" android:keyLabel="" />
+	    <Key android:codes="0xE031" android:keyLabel="" />
+	    <Key android:codes="0xE036" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+    
+</Keyboard>

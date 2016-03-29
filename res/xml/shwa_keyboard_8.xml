@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"  
+    android:keyHeight="50dp">
+    
+	<Row>
+	    <Key android:codes="0xE1F0" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE0D8" android:keyLabel="" android:horizontalGap="37.5%p"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE0F9" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE1FC" android:keyLabel="" android:keyEdgeFlags="right" android:horizontalGap="25%p"/>
+	</Row>
+	<Row>
+	    <Key android:codes="0xE0FA" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE1F3" android:keyLabel="" />
+	    <Key android:codes="0xE1FD" android:keyLabel="" android:keyEdgeFlags="right" android:horizontalGap="12.5%p"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="-5" android:keyIcon="@drawable/delete_icon" android:isRepeatable="true" android:isSticky="true" />
+	    <Key android:codes="0xE200" android:keyIcon="@drawable/home_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE201" android:keyIcon="@drawable/back_icon" android:isSticky="true"/>
+	    <Key android:codes="0x000A" android:keyIcon="@drawable/enter_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE0FB" android:keyLabel="" />
+	    <Key android:codes="0xE0F0" android:keyLabel="" android:horizontalGap="37.5%p"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE215" android:keyLabel="" android:keyEdgeFlags="left" />
+	    <Key android:codes="0xE219" android:keyLabel="" />
+	    <Key android:codes="0xE21D" android:keyLabel="" />
+	    <Key android:codes="0xE230" android:keyLabel="" />
+	    <Key android:codes="0xE0F8" android:keyLabel="" />
+	    <Key android:codes="0xE1FA" android:keyLabel="" android:horizontalGap="12.5%p"/>
+	    <Key android:codes="0xE0F8" android:keyLabel="" android:horizontalGap="12.5%p"/>
+	</Row>
+    
+</Keyboard>

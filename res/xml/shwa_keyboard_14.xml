@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"  
+    android:keyHeight="50dp">
+    
+	<Row>
+	    <Key android:codes="0xE130" android:keyLabel="" android:horizontalGap="50%p" />
+	    <Key android:codes="0xE131" android:keyLabel="" />
+	    <Key android:codes="0xE13B" android:keyLabel="" android:keyEdgeFlags="right" android:horizontalGap="12.50%p"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE132" android:keyLabel="" android:horizontalGap="62.50%p" />
+	    <Key android:codes="0xE137" android:keyLabel="" />
+	    <Key android:codes="0xE13C" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row>
+	    <Key android:codes="0xE138" android:keyLabel="" android:horizontalGap="75%p" />
+	    <Key android:codes="0xE13D" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="-5" android:keyIcon="@drawable/delete_icon" android:isRepeatable="true" android:isSticky="true" />
+	    <Key android:codes="0xE200" android:keyIcon="@drawable/home_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE201" android:keyIcon="@drawable/back_icon" android:isSticky="true"/>
+	    <Key android:codes="0x000A" android:keyIcon="@drawable/enter_icon" android:isSticky="true"/>
+	    <Key android:codes="0xE13E" android:keyLabel="" android:keyEdgeFlags="right" android:horizontalGap="37.50%p"/>
+	</Row>
+	
+	<Row>
+	    <Key android:codes="0xE215" android:keyLabel="" android:keyEdgeFlags="left" />
+	    <Key android:codes="0xE219" android:keyLabel="" />
+	    <Key android:codes="0xE21D" android:keyLabel="" />
+	    <Key android:codes="0xE230" android:keyLabel="" />
+	    <Key android:codes="0xE13A" android:keyLabel="" android:horizontalGap="25.0%p"/>
+	    <Key android:codes="0xE13F" android:keyLabel="" android:keyEdgeFlags="right"/>
+	</Row>
+    
+</Keyboard>
